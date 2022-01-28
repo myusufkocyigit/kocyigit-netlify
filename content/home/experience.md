@@ -22,28 +22,43 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+  - title: PhD, Research Fellow
+    company: Boston University Artificial Intelligence Research Group
+    company_url: bu.edu
+    company_logo: 
+    location: Boston, MA
+    date_start: '2020-09-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        * My current focus in research is learning better cross lingual representations through multitask and contrastive learning that will allow solving multiple cross lingual tasks more robustly.
+        * Working on bias detection in natural language data(books and news) through time within 2021 Google Research Scholar Program.
+        * Leading research project for Ottoman handwritten text recognition which received $50K from the Scientific Research Council of Turkey(TUBITAK).
         
-        * Analysing
-        * Modelling
-        * Deploying
+        Supervisor: Derry Wijaya
+
+  - title: CEO & CoFounder
+    company: TRIA|AI
+    company_url: tria.ai
+    company_logo: 
+    location: Istanbul, Turkey
+    date_start: '2018-06-06'
+    date_end: '2020-06-06'
+    description: |2-
+        * Founded company,led business development,closed contracts worthover $100K, and managed client relations. Worked with the C‐Suite of LC Waikiki, multi‐billion retailer present in 40 countries, to guide their AI strategy to increase online sales.
+        * Deployedan ML models for LCWaikiki for behavioral customer segmentation, customer life time value prediction and churn analysis that achieved +100% increase in conversion rates for targeted ads.
+        * Worked with DEDAS, one of Turkey’s biggest electricity distributors,to detect illegal uses of electricity and increased the detection rate by +150% with estimated business impact of $500K.
         
-  - title: Professor of Semiconductor Physics
-    company: University X
-    company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+  - title: Technical Project Lead, ML Engineer
+    company: Turkcell Global Information
+    company_url: 
+    company_logo: 
+    location: Istanbul, Turkey
+    date_start: '2017-06-06'
+    date_end: '2018-06-06'
+    description: |2-
+        * Joined AI team as a founding member. Engineered a text classification pipeline for routing customer issues.
+        * Led conversational modeling project which secured $200K award grant from Scientific Research Council of Turkey(TUBITAK).
+
 
 design:
   columns: '2'
