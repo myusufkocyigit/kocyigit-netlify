@@ -44,7 +44,7 @@ experience:
     date_start: '2018-06-06'
     date_end: '2020-06-06'
     description: |2-
-        * Founded company,led business development, closed contracts worth ~$100K, and managed client relations. Worked with the C‐Suite of LC Waikiki, multi‐billion retailer present in 40 countries, to guide their AI strategy to increase online sales.
+        * Founded company, led business development, closed contracts worth ~$100K, and managed client relations. Worked with the C‐Suite of LC Waikiki, multi‐billion retailer present in 40 countries, to guide their AI strategy to increase online sales.
         * Deployed an ML model for LCWaikiki for behavioral customer segmentation, customer life time value prediction and churn analysis that achieved +100% increase in conversion rates for targeted ads.
         * Worked with DEDAS, one of Turkey’s biggest electricity distributors,to detect illegal uses of electricity and increased the detection rate by +150% with estimated business impact of $500K.
         
