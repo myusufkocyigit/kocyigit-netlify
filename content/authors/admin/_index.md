@@ -73,4 +73,4 @@ email: ""
 highlight_name: true
 ---
 
-I'm a second year PhD student at Boston University CS advised by Derry Wijaya. Previously I have worked on robust cross-lingual representation learning and machine translation evaluation. Currenlty I am interested in testing and improving the robustness of NLP models through data augmentation and selfsupervised learning. I am also interested in using AI for analyzing racial bias in large amounts of text. 
+I'm a fourth year PhD student at Boston University CS advised by Derry Wijaya. Previously I have worked on robust cross-lingual representation learning and machine translation evaluation. Currenlty I am interested in testing and improving the robustness of NLP models through data augmentation and selfsupervised learning. I am also interested in using AI for analyzing racial bias in large amounts of text. 
