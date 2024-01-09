@@ -1,22 +1,25 @@
 ---
-title: "Better Quality Estimation for Low Resource Corpus Mining"
+title: "On Measuring Social Biases in Prompt-Based Multi-Task Learning"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
+- Afra Feyza Akyurek
+- Sejin Pak
 - admin
-- Jiho Lee
+- Seda Akbiyik
+- Serife Leman Runyun
 - Derry Wijaya
 
 # Author notes (optional)
 
 
-date: "2021-07-01T00:00:00Z"
+date: "2023-12-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-12-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -25,12 +28,12 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: Findings of ACL'22
+publication: Findings of NAACL'22
 
-abstract: Quality Estimation (QE) models have the po- tential to change how we evaluate and maybe even train machine translation models. However, these models still lack the robustness to achieve general adoption. We show that State-of-the-art QE models, when tested in a Parallel Corpus Mining (PCM) setting, perform unexpectedly bad due to a lack of robustness to out-of-domain examples. We propose a combination of multitask training, data augmentation and contrastive learning to achieve better and more robust QE performance. We show that our method improves QE performance significantly in the MLQE challenge and the robustness of QE models when tested in the Parallel Corpus Mining setup. We increase the accuracy in PCM by more than 0.80, making it on par with state-of-the-art PCM methods that use millions of sentence pairs to train their models. In comparison, we use thousand times less data, 7K parallel sentences in total, and propose a novel low resource PCM method
+abstract: Large language models trained on a mixture of NLP tasks that are converted into a text-to-text format using prompts, can generalize into novel forms of language and handle novel tasks. A large body of work within prompt engineering attempts to understand the effects of input forms and prompts in achieving superior performance. We consider an alternative measure and inquire whether the way in which an input is encoded affects social biases promoted in outputs. In this paper, we study T0, a large-scale multi-task text-to-text language model trained using prompt-based learning. We consider two different forms of semantically equivalent inputs question-answer format and premise-hypothesis format. We use an existing bias benchmark for the former BBQ and create the first bias benchmark in natural language inference BBNLI with hand-written hypotheses while also converting each benchmark into the other form. The results on two benchmarks suggest that given two different formulations of essentially the same input, T0 conspicuously acts more biased in question answering form, which is seen during training, compared to premise-hypothesis form which is unlike its training examples. Code and data are released under this https URL.
 
 # Summary. An optional shortened abstract.
-summary: We show that a multitask feature extraction and aggregation can model human perception of similarity of translated sentences much better than standart n-gram level distance metrics.
+summary: We show T0, a text-to-text language model, exhibits more social bias in question-answer formats than in premise-hypothesis formats, highlighting the impact of input forms on bias also include a new bias benchmark and provides code and data.
 
 tags: []
 
