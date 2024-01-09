@@ -36,7 +36,7 @@ experience:
         
         Supervisor: Derry Wijaya
 
-  - title: Applied Science Internt
+  - title: Applied Scientist Intern
     company: Amazon
     company_url: amazon.com
     company_logo: 
@@ -50,7 +50,7 @@ experience:
         * Worked quantifying characteristics of train‑test split that make a split compositionally challenging.
         
         Supervisor: Emilio Monti
-        
+
   - title: CEO & CoFounder
     company: TRIA|AI
     company_url: tria.ai
