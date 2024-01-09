@@ -36,6 +36,21 @@ experience:
         
         Supervisor: Derry Wijaya
 
+  - title: Applied Science Internt
+    company: Amazon
+    company_url: amazon.com
+    company_logo: 
+    location: Cambridge, UK
+    date_start: '2022-06-01'
+    date_end: '2022-09-10'
+    description: |2-
+        * Worked in the Semantic Understanding team. My project was focused on better evaluating and improving compositional generalization abilities of Semantic Parsing models
+        * Created an extension to TMCD splits that has more robust convergence to compositionally challenging splits.
+        * Worked on improving compositional generalization through meta learning and chain‑of‑thought prompting.
+        * Worked quantifying characteristics of train‑test split that make a split compositionally challenging.
+        
+        Supervisor: Emilio Monti
+        
   - title: CEO & CoFounder
     company: TRIA|AI
     company_url: tria.ai
