@@ -14,15 +14,14 @@ organizations:
   url: https://www.bu.edu
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include robust cross-lingual representation learning and evaluating natural language generation.
+bio: My research interests include better evaluating and improving LLMs, understanding the pre-training data of LLMs and computational social sciences 
 
 # Interests to show in About widget
 interests:
-- Natural Language Processing
-- Self-supervised Learning
+- Better Evaluating LLMs
 - Robust Representation Learning
-- Cross Lingual Representation Learning
-- Evaluating Natural Language Generation
+- Understanding what is in our pre-training data
+- Evaluating Machine Translation
 - Computational Social Science
 
 # Education to show in About widget
@@ -73,4 +72,4 @@ email: ""
 highlight_name: true
 ---
 
-I'm a fourth year PhD student at Boston University CS advised by Derry Wijaya. Previously I have worked on robust cross-lingual representation learning and machine translation evaluation. Currenlty I am interested in testing and improving the robustness of NLP models through data augmentation and selfsupervised learning. I am also interested in using AI for analyzing racial bias in large amounts of text. 
+I am currently in my fourth year of pursuing a PhD in Computer Science at Boston University, where I am being mentored by Derry Wijaya. Previouly I have worked at Amazon with Dr.Emilio Monti and at Fair,Meta where I worked with Dr.Dieuwke Hupkes. My previous research focused on developing strong cross-lingual representation learning techniques and evaluating machine translation systems. Currently, my interest lies in deepening my understanding of evaluations for Large Language Models (LLMs). This involves exploring the concept of generalization in these models, examining the methods used to measure their generalization capabilities, and investigating potential unnoticed factors, such as contamination, that might affect our evaluation methods. Additionally, I have a keen interest in working on computational social science projects, particularly those that I believe have a significant impact.
