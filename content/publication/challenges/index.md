@@ -1,26 +1,23 @@
 ---
-title: "NUBIA: NeUral Based Interchangeability Assessor for Text Generation"
+title: "Challenges in Measuring Bias via Open-Ended Language Generation"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Hassan Kane
+- Afra Feyza Akyurek
 - admin
-- Ali Abdalla
-- Pelkins Ajonah
-- Mohamed Coulibali
+- Sejin Pak
+- Derry Wijaya
 
 # Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
 
-date: "2020-07-01T00:00:00Z"
+
+date: "2023-12-15T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2023-12-15T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -29,13 +26,12 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
-publication_short: INLG'20 EvalNLGEval Workshop
+publication: NAACL'22 4th Workshop on Gender Bias in Natural Language Processing. 
 
-abstract: We present NUBIA, a methodology to build automatic evaluation metrics for text generation using only machine learning models as core components. A typical NUBIA model is composed of three modules a neural feature extractor, an aggregator and a calibrator. We demonstrate an implementation of NUBIA which outperforms metrics currently used to evaluate machine translation, summaries and slightly exceeds/matches state of the art metrics on correlation with human judgement on the WMT segment-level Direct Assessment task, sentence-level ranking and image captioning evaluation. The model implemented is modular, explainable and set to continuously improve over time.
+abstract: Researchers have devised numerous ways to quantify social biases vested in pretrained language models. As some language models are capable of generating coherent completions given a set of textual prompts, several prompting datasets have been proposed to measure biases between social groups -- posing language generation as a way of identifying biases. In this opinion paper, we analyze how specific choices of prompt sets, metrics, automatic tools and sampling strategies affect bias results. We find out that the practice of measuring biases through text completion is prone to yielding contradicting results under different experiment settings. We additionally provide recommendations for reporting biases in open-ended language generation for a more complete outlook of biases exhibited by a given language model. Code to reproduce the results is released under this https URL.
 
 # Summary. An optional shortened abstract.
-summary: We show that a multitask feature extraction and aggregation can model human perception of similarity of translated sentences much better than standart n-gram level distance metrics.
+summary: We show the inconsistency in measuring social biases in language models using text completion, highlighting how different methods and settings affect results also offer guidelines for more accurate bias reporting and provides the study's code.
 
 tags: []
 

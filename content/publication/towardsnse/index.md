@@ -28,7 +28,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: In Document Intelligence Workshop NeurIPS'19
-publication_short: In DI NeurIPS'19
+publication_short: NeurIPS'19 DI Workshop
 
 abstract: We review the limitations of BLEU and ROUGE – the most popular metrics used to assess reference summaries against hypothesis summaries, and come up with criteria for what a good metric should behave like and propose concrete ways to use and test recent Transformers-based Language Models to assess reference summaries against hypothesis summaries. 
 
