@@ -21,12 +21,11 @@ twitter: 'mykocyigit'
 # Contact (edit or remove options as required)
 
 email: kocyigit@bu.edu
-phone: '+1 617 337 7822'
 address:
-  street: 665 Commonwealth Avenue
-  city: Boston
-  region: MA
-  postcode: '02215'
+  street: ''
+  city: Palo Alto
+  region: CA
+  postcode: ''
   country: United States
   country_code: US
 
