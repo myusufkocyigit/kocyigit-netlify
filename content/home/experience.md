@@ -10,7 +10,7 @@ date_format: '2006'
 
 experience:
   - title: Research Scientist
-    company: Google - Gemini Large-Scale Pretraining Core
+    company: Google
     company_url: https://research.google/
     location: Mountain View, CA
     date_start: '2025-01-01'

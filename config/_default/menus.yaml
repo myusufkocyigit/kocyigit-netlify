@@ -8,12 +8,9 @@ main:
   - name: Publications
     url: '#publications'
     weight: 30
-  - name: Expertise
-    url: '#expertise'
-    weight: 40
   - name: Contact
     url: '#contact'
-    weight: 50
+    weight: 40
   - name: CV
     url: uploads/resume.pdf
-    weight: 60
+    weight: 50
