@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="YK monogram">
+  <rect width="64" height="64" rx="14" fill="#0076df"/>
+  <g fill="none" stroke="#f4f4f5" stroke-linecap="round" stroke-linejoin="round" stroke-width="5.5">
+    <path d="M8.5 18.5 20 31l11.5-12.5M20 31v15"/>
+    <path d="M37 18v28m0-14 14-13.5M37 32l14 14"/>
+  </g>
+</svg>

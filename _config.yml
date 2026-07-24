@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text:
 keywords: machine learning, language models, LLM evaluation, data contamination, memorization, generalization
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: prof_pic.jpg # browser tab icon, sourced from /assets/img/
+icon: favicon.svg # browser tab icon, sourced from /assets/img/
 
 url: https://yusufkocyigit.me # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
