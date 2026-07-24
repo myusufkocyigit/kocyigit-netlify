@@ -8,3 +8,7 @@ AACL:
   url: https://www.aacl2022.org/
 NeurIPS:
   url: https://neurips.cc/
+INLG:
+  url: https://aclanthology.org/venues/inlg/
+Preprint:
+  url: https://arxiv.org/
