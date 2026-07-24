@@ -3,7 +3,7 @@ layout: about
 title: me
 permalink: /
 subtitle: Research Scientist at <a href="https://research.google/">Google</a> &middot; Palo Alto, CA
-tagline: Mapping the jagged capability frontier
+tagline: Mapping AI’s capability frontier
 role: Research Scientist at <a href="https://research.google/">Google</a>
 location: Palo Alto, CA
 
