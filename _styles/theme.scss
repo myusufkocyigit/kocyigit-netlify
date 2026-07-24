@@ -4,7 +4,7 @@
 @use "sass:string";
 
 @use "variables" with (
-  $max-content-width: 930px
+  $max-content-width: 800px
 );
 
 @use "themes";
@@ -19,3 +19,4 @@
 @use "tabs";
 @use "teachings";
 @use "typograms";
+@use "reference";

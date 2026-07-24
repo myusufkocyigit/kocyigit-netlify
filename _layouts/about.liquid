@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+  <head>
+    {% include head.liquid %}
+  </head>
+
+  <body class="reference-home sticky-bottom-footer">
+    <div class="container mt-5" role="main">
+      <div class="post">
+        <header class="post-header">
+          <div class="profile-top">
+            <div class="about-title">
+              <h1 class="post-title">
+                {% if site.title == 'blank' %}
+                  <span class="font-weight-bold">{{ site.first_name }}</span>
+                  {{ site.middle_name }} {{ site.last_name }}
+                {% else %}
+                  {{ site.title }}
+                {% endif %}
+              </h1>
+              {% if page.tagline %}
+                <p class="tagline"><em>{{ page.tagline }}</em></p>
+              {% endif %}
+              {% if page.role %}
+                <p class="motto">{{ page.role }}</p>
+              {% endif %}
+              {% if page.location %}
+                <p class="motto">{{ page.location }}</p>
+              {% endif %}
+            </div>
+
+            {% if page.profile and page.profile.image %}
+              <div class="profile">
+                {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+                {% if page.profile.image_circular %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+                {% else %}
+                  {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+                {% endif %}
+                {% capture sizes %}(min-width: {{ site.max_width }}) 215px, (min-width: 576px) 30vw, 90vw{% endcapture %}
+                {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image cache_bust=true %}
+              </div>
+            {% endif %}
+          </div>
+        </header>
+      </div>
+
+      <article>
+        {% include header.liquid %}
+
+        <div class="home-copy">{{ content }}</div>
+
+        {% if page.announcements and page.announcements.enabled %}
+          <h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a></h2>
+          {% include news.liquid limit=true %}
+        {% endif %}
+
+        {% if page.latest_posts and page.latest_posts.enabled %}
+          <h2><a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a></h2>
+          {% include latest_posts.liquid %}
+        {% endif %}
+
+        {% if page.selected_papers %}
+          <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a></h2>
+          {% include selected_papers.liquid %}
+        {% endif %}
+      </article>
+    </div>
+
+    {% include footer.liquid %}
+    {% include scripts.liquid %}
+  </body>
+</html>

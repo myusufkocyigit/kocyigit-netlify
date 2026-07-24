@@ -3,6 +3,9 @@ layout: about
 title: me
 permalink: /
 subtitle: Research Scientist at <a href="https://research.google/">Google</a> &middot; Palo Alto, CA
+tagline: making language model evaluation more reliable
+role: Research Scientist at <a href="https://research.google/">Google</a>
+location: Palo Alto, CA
 
 profile:
   align: left

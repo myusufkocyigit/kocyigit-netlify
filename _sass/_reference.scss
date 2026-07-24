@@ -1,0 +1,131 @@
+/*******************************************************************************
+ * Reference-inspired presentation for the personal site.
+ ******************************************************************************/
+
+:root {
+  --global-bg-color: #f4f4f5;
+  --global-code-bg-color: rgba(0, 118, 223, 0.05);
+  --global-text-color: #000000;
+  --global-theme-color: #0076df;
+  --global-hover-color: #0076df;
+  --global-hover-text-color: #f4f4f5;
+  --global-card-bg-color: #f4f4f5;
+  --global-footer-link-color: #f4f4f5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--global-bg-color);
+  font-family: "Newsreader", Georgia, serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+body.sticky-bottom-footer {
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.navbar {
+  font-weight: 400;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  font-weight: 400;
+  color: var(--global-theme-color);
+}
+
+.reference-home .post-header {
+  margin-bottom: 0;
+}
+
+.reference-home .profile-top {
+  display: block;
+}
+
+.reference-home .profile-top .profile {
+  width: 100%;
+  margin: 0;
+}
+
+.reference-home .profile-top .profile figure {
+  margin: 0 0 1rem;
+}
+
+.reference-home .profile-top .profile img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  object-position: center 49%;
+}
+
+.reference-home .about-title {
+  padding-top: 2rem;
+}
+
+.reference-home .about-title p {
+  margin: 0.1rem 0;
+}
+
+.reference-home .about-title .post-title {
+  margin: 0 0 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+.reference-home .about-title .tagline {
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.reference-home .about-title .motto {
+  display: none;
+  padding-top: 0.25rem;
+  font-size: 1.15rem;
+}
+
+.reference-home article > header .navbar {
+  margin-bottom: 2rem;
+}
+
+.reference-home .home-copy > p:first-child {
+  margin-top: 0;
+}
+
+.publications ol.bibliography li .title {
+  font-weight: 500;
+}
+
+.publications ol.bibliography li .author a {
+  color: var(--global-text-color);
+}
+
+@media (min-width: 576px) {
+  .reference-home .profile-top {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .reference-home .profile-top .about-title {
+    order: 1;
+    flex: 1 1 auto;
+    padding-top: 0.25rem;
+  }
+
+  .reference-home .profile-top .profile {
+    order: 0;
+    flex: 0 0 30%;
+    width: 30%;
+    padding-right: 1rem;
+  }
+
+  .reference-home .about-title .motto {
+    display: block;
+  }
+}
