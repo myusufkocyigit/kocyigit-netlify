@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": ">=24"
+  },
   "scripts": {
     "build:css": "sass --load-path=_sass _styles/theme.scss assets/css/site.css --style=compressed --no-source-map",
     "build": "npm run build:css && bundle exec jekyll build",
