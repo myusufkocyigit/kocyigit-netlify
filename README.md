@@ -2,18 +2,21 @@
 
 Source for Muhammed Yusuf Kocyigit's personal research website.
 
+The site uses Jekyll and the MIT-licensed [al-folio](https://github.com/alshedivat/al-folio) academic website theme.
+
 ## Local development
 
-The site uses Hugo Extended and the pinned Wowchemy modules in `go.mod`.
+Use Ruby 3.3 and Bundler 4, then install the dependencies and start Jekyll:
 
 ```bash
-hugo server
+bundle install
+bundle exec jekyll serve
 ```
 
 Build the production site with:
 
 ```bash
-hugo --gc --minify
+JEKYLL_ENV=production bundle exec jekyll build
 ```
 
-The site is deployed by Netlify using `netlify.toml`.
+Netlify builds the site from `netlify.toml` and publishes `_site`.

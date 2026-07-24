@@ -1,0 +1,99 @@
+cv:
+  name: Muhammed Yusuf Kocyigit
+  label: Research Scientist at Google
+  email: kocyigit@bu.edu
+  location: Palo Alto, CA
+  image: ""
+  summary: Research scientist working on reliable language model evaluation, data contamination, memorization, and generalization.
+
+  social_networks:
+    - network: GitHub
+      username: myusufkocyigit
+    - network: LinkedIn
+      username: yusufkocyigit
+
+  sections:
+    Experience:
+      - company: Google
+        position: Research Scientist
+        location: Mountain View, CA
+        start_date: 2025
+        end_date: present
+        highlights:
+          - Analyze large-scale training runs for metric anomalies that may be caused by data contamination.
+          - Develop improved decontamination recipes and test-train overlap metrics to identify contamination early and increase evaluation signal-to-noise ratio.
+          - Study how training stages affect performance, memorization, and generalization.
+          - Improve task-specific, efficient small language models using synthetic data.
+
+      - company: Boston University Artificial Intelligence Research Group
+        position: PhD Research Fellow
+        location: Boston, MA
+        start_date: 2020
+        end_date: 2025
+        highlights:
+          - Studied natural language evaluation, with an emphasis on data contamination and its effect on reported model performance.
+          - Improved sentence embeddings, compositional generalization evaluation, and cross-lingual representations through augmentation, multitask learning, and contrastive learning.
+          - Conducted temporal bias research funded by the 2021 Google Research Scholar Program.
+          - Led an Ottoman handwritten text recognition project that received $50K from the Scientific Research Council of Turkey.
+
+      - company: Google
+        position: Research Scientist Intern
+        location: Mountain View, CA
+        start_date: 2024
+        end_date: 2025
+        highlights:
+          - Quantified the effect of data contamination on LLM performance and evaluation reliability.
+          - Built scalable experimental frameworks to measure contamination impact and improve evaluation data selection.
+          - "Host: Daniel Deutsch."
+
+      - company: FAIR, Meta
+        position: Research Scientist Intern
+        location: London, UK
+        start_date: 2023
+        end_date: 2024
+        highlights:
+          - Developed methods to define and detect contamination between evaluation sets and LLM pretraining data.
+          - Analyzed performance overestimation caused by contamination; the methodology and code were used in contamination analysis for Llama 3.1.
+          - "Host: Dieuwke Hupkes."
+
+      - company: Amazon
+        position: Applied Science Intern
+        location: Cambridge, UK
+        start_date: 2022
+        end_date: 2022
+        highlights:
+          - Evaluated and improved compositional generalization in semantic parsing models.
+          - Extended TMCD splits for more robust convergence and studied meta-learning and chain-of-thought prompting strategies.
+          - "Host: Emilio Monti."
+
+      - company: TRIA AI
+        position: Co-Founder and CEO
+        location: Istanbul, Turkey
+        start_date: 2018
+        end_date: 2020
+        highlights:
+          - Led business development, closed contracts worth more than $100K, and advised enterprise clients on AI strategy.
+          - Deployed customer segmentation, lifetime value, and churn models that doubled targeted-ad conversion rates for LC Waikiki.
+          - Improved illegal-electricity-use detection by 150% for DEDAS, with an estimated $500K business impact.
+
+    Education:
+      - institution: Boston University
+        location: Boston, MA
+        area: Computer Science
+        studyType: PhD
+        start_date: 2020
+        end_date: 2025
+
+      - institution: Bogazici University
+        location: Istanbul, Turkey
+        area: Electrical and Electronics Engineering
+        studyType: MSc
+        start_date: 2017
+        end_date: 2020
+
+      - institution: Bogazici University
+        location: Istanbul, Turkey
+        area: Electrical and Electronics Engineering
+        studyType: BSc
+        start_date: 2012
+        end_date: 2017

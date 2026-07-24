@@ -1,0 +1,10 @@
+ICML:
+  url: https://icml.cc/
+ACL:
+  url: https://aclanthology.org/
+NAACL:
+  url: https://naacl.org/
+AACL:
+  url: https://www.aacl2022.org/
+NeurIPS:
+  url: https://neurips.cc/
