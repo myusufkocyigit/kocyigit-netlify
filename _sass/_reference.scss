@@ -98,6 +98,13 @@ body.sticky-bottom-footer {
   margin-top: 0;
 }
 
+.publications h2.bibliography {
+  color: color-mix(in srgb, var(--global-theme-color) 60%, var(--global-text-color));
+  border-top-color: color-mix(in srgb, var(--global-theme-color) 22%, transparent);
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .publications ol.bibliography li .title {
   font-weight: 500;
 }
