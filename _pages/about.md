@@ -13,7 +13,7 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: true
+show_all_publications: true
 social: true
 
 announcements:
@@ -29,4 +29,4 @@ I am a research scientist at Google and a member of the Gemini large-scale pretr
 
 I completed my PhD in Computer Science at [Boston University](https://www.bu.edu/cs/) in 2025 under the supervision of [Prof. Derry Wijaya](https://derrywijaya.github.io/). My doctoral research covered LLM evaluation, machine translation, sentence representations, compositional generalization, and computational social science.
 
-Before joining Google, I held research internships at Google, [FAIR at Meta](https://ai.meta.com/research/), and [Amazon](https://www.amazon.science/). I received my MSc and BSc in Electrical and Electronics Engineering from Bogazici University.
+Before joining Google, I held research internships at [Google](https://research.google/), [FAIR at Meta](https://ai.meta.com/research/), and [Amazon](https://www.amazon.science/). I received my BSc in Electrical and Electronics Engineering from Bogazici University.
