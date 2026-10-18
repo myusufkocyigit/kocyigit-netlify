@@ -8,7 +8,7 @@ middle_name:
 last_name: Kocyigit
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Muhammed Yusuf Kocyigit is a research scientist at Google working on reliable language model evaluation,
+  Muhammed Yusuf Kocyigit is a research scientist at Google DeepMind working on reliable language model evaluation,
   data contamination, memorization, and generalization.
 footer_text:
 keywords: machine learning, language models, LLM evaluation, data contamination, memorization, generalization

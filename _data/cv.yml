@@ -1,6 +1,6 @@
 cv:
   name: Muhammed Yusuf Kocyigit
-  label: Research Scientist at Google
+  label: Research Scientist at Google DeepMind
   email: kocyigit@bu.edu
   location: Palo Alto, CA
   image: ""
@@ -14,7 +14,7 @@ cv:
 
   sections:
     Experience:
-      - company: Google
+      - company: Google DeepMind
         position: Research Scientist
         location: Mountain View, CA
         start_date: 2025
