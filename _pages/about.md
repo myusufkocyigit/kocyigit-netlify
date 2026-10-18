@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am a research scientist at Google DeepMind and a member of the Gemini large-scale pretraining core team. My work focuses on making language model evaluation more reliable: identifying and mitigating data contamination, improving evaluation signal-to-noise ratio, and understanding how training stages affect memorization and generalization. I also work on efficient, task-specific language models trained with synthetic data.
+I am a research scientist at Google DeepMind and a member of the Pretraining data and evals teams. My work focuses on making language model evaluation more reliable: identifying and mitigating data contamination, improving evaluation signal-to-noise ratio, and understanding how training stages affect memorization and generalization. I also work on efficient, task-specific language models trained with synthetic data.
 
 ## biography
 
